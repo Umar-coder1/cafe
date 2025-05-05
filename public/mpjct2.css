@@ -1,0 +1,31 @@
+.login {
+  box-sizing: border-box;
+  padding-top: 50px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 135px;
+  left: 500px;
+  border: solid 1px black;
+}
+.header {
+  color: rgb(132, 175, 97);
+  margin-left: 140px;
+  font-size: x-large;
+  font-family: sans-serif;
+}
+.user {
+  width: 275px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.butn {
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-bottom: 80px;
+}
+.signup {
+  margin-left: 30px;
+  margin-top: 30px;
+}

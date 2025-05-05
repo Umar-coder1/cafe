@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/mpjct2.css" />
+  </head>
+  <body>
+    <div class="login">
+      <p>{{message}}</p>
+      <form action="/auth/register" method="post">
+        <div class="header">
+          Регестрация
+        </div>
+        <input
+          type="text"
+          class="user"
+          placeholder="Введите логин"
+          name="email"
+        />
+        <input
+          type="text"
+          class="user"
+          placeholder="Введите пароль"
+          name="password"
+        />
+        <button class="butn">Зарегестрироваться</button>
+
+      </form>
+      <a class="signup" href="/auth/login">Войти</a>
+    </div>
+  </body>
+</html>

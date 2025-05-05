@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="newborn">
+        <div class="sideBar">
+            <div class="tag">Newborn</div>
+            <div class="undtags"><a href="/category/obzor">Обзор</a></div>
+            <div class="undtags"><a href="history">История</a></div>
+            <div class="undtags" style="background-color: brown;"><a href="/order">Добавить заказ</a></div>
+            <div class="undtags"><a href="/category">Категории</a></div>
+            <div class="bottom"><a href="">Выйти</a></div>
+        </div>
+        <div class="content">
+            <h1>Заказ > Категории</h1>
+            <button class="btnorder">заказ</button>
+            <div class="modal">
+              <div class="modalwindow">
+                <p class="hdr">Чек</p>
+                <div class="cros">X</div>
+                <br>
+                <ul id="storageList"></ul>
+                <span>Итог:</span>
+                <span class="total">{{this.total}}</span>
+                  <div class="orderorder">Оформить заказ</div>
+            
+              </div>
+            </div>
+            <br>
+            <div class="category">
+            {{#each cateoryAll}}
+              <div class="adds">
+                <div class="categoryname"><a href="/order/asort/{{this._id}}">{{this.name}}</a></div>
+              </div>
+            {{/each}}
+            </div>
+        </div>
+    </div>
+    <script src="/rec.js"></script>
+  </body>
+</html>

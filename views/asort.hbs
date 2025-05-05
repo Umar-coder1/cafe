@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="newborn">
+        <div class="sideBar">
+            <div class="tag">Newborn</div>
+            <div class="undtags"><a href="/category/obzor">Обзор</a></div>
+            <div class="undtags"><a href="history">История</a></div>
+            <div class="undtags"><a href="/order">Добавить заказ</a></div>
+            <div class="undtags"><a href="/category">Категории</a></div>
+            <div class="bottom">Выйти</div>
+        </div>
+        <div class="content">
+            <h1>Категории > Ассортимент</h1>
+            <br>
+            <form action="/asort/add" method="post">
+                <input type="text" class="add"  name="id_category" value="{{id_category}}">
+                <input type="text" class="add" placeholder="Введите название продукта" name="dish">
+                <input type="text" class="add" placeholder="Введите цену продукта" name="cost">
+                <button>Добавить</button>
+            </form>
+            <br>
+            <div class="category">
+            {{#each asortAll}}
+              <div class="adds">
+                <div class="categoryname"><a href="">{{this.dish}}</a></div>
+                <div class="categoryname">{{this.cost}}</div>
+                <div><a href="/asort/delete/{{this._id}}">Удалить</a></div>
+              </div>
+            {{/each}}
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>

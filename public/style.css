@@ -1,0 +1,115 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.newborn{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 20px 0px 10px 15px;
+}
+.sideBar{
+    width: 250px;
+    height: 100vh;
+    border-right: solid 2px rgb(100, 96, 96) ;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.103);
+}
+.content{
+    padding-left: 20px;
+    height: 100vh;
+}
+.tag{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.bottom {
+    color: rgb(156, 154, 154);
+    font-size: small;
+    font-family: sans-serif;
+}
+.undtags{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add{
+    width: 300px;
+    height: 30px;
+    border-bottom:solid 2px black;
+    font-size: larger;
+}
+.category{
+    border: solid 2px black;
+    width: 600px;
+}
+.adds{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-bottom: solid 1px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+.categoryname{
+    font-family: sans-serif;
+    font-size: large;
+}
+.orderorder{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: smaller;
+    text-align: center;
+    background-color: rgb(238, 71, 71);
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: #000000de;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+.open{
+    display: block;
+}
+.modalwindow{
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    left: 440px;
+    width: 500px;
+    padding-left: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.hdr{
+    font-size: larger;
+    margin-bottom: 0%;
+}
+.addss{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: solid 1px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+.cros{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 515px;
+    font-size: larger;
+}

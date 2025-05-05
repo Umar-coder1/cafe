@@ -1,0 +1,41 @@
+body {
+  margin: 0%;
+}
+.newborn {
+  width: 17%;
+  height: 641px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.103);
+  padding-top: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.tag {
+  color: rgb(121, 114, 114);
+  font-size: x-large;
+  font-family: sans-serif;
+}
+.undtags {
+  color: rgba(156, 154, 154, 0.849);
+  width: 190px;
+  height: 20px;
+  font-size: small;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+.bottom {
+  color: rgb(156, 154, 154);
+  font-size: small;
+  font-family: sans-serif;
+  margin-top: 400px;
+}
+.undtags:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(209, 221, 221);
+}
+.obz{
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+}
