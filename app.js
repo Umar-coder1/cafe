@@ -16,7 +16,7 @@ app.use(express.json())
 
 async function main() {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/db");
+    await mongoose.connect("mongodb+srv://aldayarovumar:FDjUeu0pwJbWojFl@cluster0.1sx1zzs.mongodb.net/");
     console.log("db started");
   } catch (err) {
     return console.log(err);
